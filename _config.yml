@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Joseph Liu"
   avatar           : "/assets/images/joseph-headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Science student and researcher"
+  bio              : ""
   location         : "California, USA"
   email            :
   links:
