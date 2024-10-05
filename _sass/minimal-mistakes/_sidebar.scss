@@ -134,11 +134,11 @@
   }
 
   img {
-    max-width: 110px;
+    max-width: 80%;
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: $author-padding;
       border: 1px solid $border-color;
     }
   }
@@ -173,6 +173,7 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
+  padding-left: $author-padding;
 }
 
 .author__bio {
@@ -191,6 +192,8 @@
   font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
+  padding-left: $author-padding;
+
 
   li:last-child {
     a {
